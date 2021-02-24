@@ -14,10 +14,10 @@ This project is a website, totally responsive,where you can search pokemons and 
 
 ### How is the site?
   #### Pokemons:
-   ![](pokedeximg(1).png)
+   ![](pokedeximg(0).png)
    
    ### Status:
-   ![](pokedeximg(2).png)
+   ![](pokedeximg(0).png)
    
 
 
