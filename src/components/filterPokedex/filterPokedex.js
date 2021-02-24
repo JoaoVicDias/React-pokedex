@@ -23,7 +23,7 @@ const FilterPokedex = props =>{
                 </select>
             </div>
             <form className={classes.filter__pokedex__form__items} onSubmit={((event)=>props.filterPokemonsByName(event))}>
-            <input className={classes.filter__pokedex__input__item} value={props.inputSearchValueHandlerData} onChange={((event)=>props.inputSearchValueHandler(event))} type="text" placeholder="Pesquise pelo nome..." />
+            <input className={classes.filter__pokedex__input__item} value={props.inputSearchValueHandlerData} onChange={((event)=>props.inputSearchValueHandler(event))} type="text" placeholder="Search by name..." />
             <button className={classes.filter__pokedex__input__item__btn} >Search</button>
             </form>
         </section>

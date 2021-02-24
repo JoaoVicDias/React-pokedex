@@ -144,7 +144,7 @@ class PokedexIndexPage extends Component{
     render(){
 
 
-        const pagination = this.state.pokemonsFilteredGen.length > 20 || this.state.pokemonsFilteredType.length > 20 ? null
+        const pagination = this.state.pokemonsFilteredGen.length > 20 || this.state.pokemonsFilteredType.length > 20 || this.state.pokemonsFilteredByName.length >= 1 ? null
         : <Pagination 
         fetchError={this.state.fetchError}
         nextDisabled={this.state.nextUrl ? false :true} 
