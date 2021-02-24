@@ -1,0 +1,25 @@
+.header__index__page{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100vw;
+    background-color: rgb(206, 64, 58);
+}
+
+.header__index__page__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__index__page__item__img{
+    min-width: 42px;
+    max-width: 54px;
+    margin: 0 5px;
+}
+
+.header__index__page__item__title{
+    color: white;
+    margin: 0 5px;
+}
